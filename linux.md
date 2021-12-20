@@ -1,3 +1,9 @@
+##### curl
+```
+curl -kL source -o dest
+curl -kOL source
+```
+
 ##### 查看 core pattern 
 ```
 cat /proc/sys/kernel/core_pattern
