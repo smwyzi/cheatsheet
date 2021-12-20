@@ -17,7 +17,7 @@ git show COMMIT
 
 ##### 远端覆盖本地
 ```
-git fetch --all &&  git reset --hard origin/expt-ext-params && git pull
+git fetch --all &&  git reset --hard origin/master && git pull
 ```
 
 ##### 清空工作区所有修改
