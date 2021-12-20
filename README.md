@@ -1,1 +1,1 @@
-# cheatsheet
+# oh-my-cheatsheet
