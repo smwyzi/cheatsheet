@@ -13,6 +13,11 @@ git show
 git show COMMIT
 ```
 
+##### 查看某一 commit 属于哪个分支
+```
+git branch -r --contains COMMIT
+```
+
 ---
 
 ##### 远端覆盖本地
