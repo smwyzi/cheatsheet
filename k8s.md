@@ -1,6 +1,6 @@
 ### get pod name
 ```
-kubectl -n default get pod -l app=${APP} -o 'jsonpath={.items[0].metadata.name}'
+kubectl -n ${NS} get pod -l app=${APP} -o 'jsonpath={.items[0].metadata.name}'
 ```
 
 ### 强制删除无法删除的 ns
