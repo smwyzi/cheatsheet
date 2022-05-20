@@ -1,3 +1,13 @@
+#### system release info
+```
+cat /etc/issue
+```
+
+#### kernel info
+```
+uname -a
+```
+
 #### curl
 ```
 curl -kL source -o dest
