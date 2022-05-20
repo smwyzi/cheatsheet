@@ -8,6 +8,16 @@ cat /etc/issue
 uname -a
 ```
 
+#### cpu info
+```
+cat /proc/cpuinfo
+```
+
+#### mem info
+```
+cat /proc/meminfo
+```
+
 #### curl
 ```
 curl -kL source -o dest
