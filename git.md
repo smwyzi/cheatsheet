@@ -1,6 +1,6 @@
 ### 查看某一 commit 属于哪个分支
 ```
-git branch -r --contains COMMIT
+git branch -r --contains <commit>
 ```
 
 ### 查看上次 commit 变更文件
@@ -15,7 +15,7 @@ git show
 
 ### 查看某一 commit 变更内容
 ```
-git show COMMIT
+git show <commit>
 ```
 
 ---
@@ -36,6 +36,11 @@ git reset --hard HEAD^2
 ```
 
 ---
+
+### 拉取 github 某一个 Pull Request 到本地
+``
+git fetch upstream pull/<pull-id>/head:<local-branch>
+```
 
 ### github fork repo workflow
 ```
